@@ -14,7 +14,7 @@ namespace BowlingBall
 
         public int GetScore()
         {
-            // Returns the final score of the game.
+            // Returns the final score of the Bowling game.
             var score = 0;
             var rollIndex = 0;
             for (var frame = 0; frame < 10; frame++)
